@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <th:block th:include="fragments/header :: head"> </th:block>
+</head>
+<body>
+<div class="container">
+    <br>
+    <nav>  <th:block th:replace="fragments/nav :: nav"></th:block>   </nav>
+    <br>
+
+    <div class="container">
+        <form method="post" th:object="${dateRange}">
+            <div class="form-group row">
+                <div class="col-md-4 mt-5">
+                    <label for="dateRange">Date of birth</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="dateRange" autocomplete="off"/>
+                        <div class="input-group-append">
+                            <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <input type="hidden" name="dateFrom" th:field="*{dateFrom}"/>
+                <input type="hidden" name="dateTo" th:field="*{dateTo}"/>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Submit form</button>
+        </form>
+
+    </div>
+
+
+
+    <h1>Employee List</h1>
+    <br>
+    <table class="table table-striped">
+        <thead>
+        <th scope="row">#Emp ID</th>
+        <th scope="row">Prefix</th>
+        <th scope="row">First Name</th>
+        <th scope="row">Last Name</th>
+        <th scope="row">Gender</th>
+        <th scope="row">E Mail</th>
+        <th scope="row">Date of Birth</th>
+        <th scope="row">Date of Joining</th>
+        <th scope="row">Quarter of Joining</th>
+        <th scope="row">Salary</th>
+        <th scope="row">Phone No.</th>
+        <th scope="row">Posted Region</th>
+
+
+
+        </thead>
+        <tbody>
+        <tr th:each="employee : ${employeeList}">
+            <td th:text="${employee.employeeId}"></td>
+            <td th:text="${employee.prefix}"></td>
+            <td th:text="${employee.firstName}"></td>
+            <td th:text="${employee.lastName}"></td>
+            <td th:text="${employee.gender}"></td>
+            <td th:text="${employee.eMail}"></td>
+            <!--<td th:text="${employee.dateOfBirth}"></td>-->
+            <td th:text="${#dates.format(employee.dateOfBirth, 'dd-MMM-yyyy')}"></td>
+            <!--<td th:text="${employee.dateOfJoining}"></td>-->
+            <td th:text="${#dates.format(employee.dateOfJoining, 'dd-MMM-yyyy')}"></td>
+            <td th:text="${employee.quarterOfJoining}"></td>
+            <td th:text="${employee.salary}"></td>
+            <td th:text="${employee.phoneNo}"></td>
+            <td th:text="${employee.postedRegion}"></td>
+            <td>
+                <a class="btn btn-primary" th:href="@{/updateEmployee/__${employee.Id}__}"  role="button" >Update</a>
+            </td>
+            <td>
+                <a class="btn btn-primary" th:href="@{/deleteEmployee/__${employee.Id}__}" role="button" >Delete</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    <br>
+    <a class="btn btn-primary" th:href="@{/addEmployeePage}"  role="button" >Add New Employee</a>
+    <br>
+
+    <nav aria-label="...">
+        <br>
+        <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+                <span class="page-link">Previous</span>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item" aria-current="page">
+      <span class="page-link">
+        2
+        <span class="sr-only">(current)</span>
+      </span>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <footer>
+        <th:block th:include="fragments/footer :: footer"></th:block>
+    </footer>
+
+</div>
+</body>
+</html>

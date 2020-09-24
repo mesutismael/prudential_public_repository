@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <th:block th:include="fragments/header :: head"> </th:block>
+</head>
+<body>
+<div class="container">
+    <br>
+    <nav>  <th:block th:replace="fragments/nav :: nav"></th:block>   </nav>
+    <br>
+    <h1>
+        ADD/Update EMPLOYEE
+    </h1>
+
+    <div class="alert alert-primary" role="alert">
+    </div>
+    <form  th:object="${employeeForm}"  method="post" th:action="@{/addEmployee}"  cssClass="form" >
+
+        <input type="hidden" th:field="*{Id}"/>
+
+
+        <div class="form-group">
+            <label>Title</label>
+            <input th:field="*{firstName}" type="text" class="form-control"  />
+        </div>
+        <div class="form-group">
+            <label>Employee Name</label>
+            <input type="text" class="form-control" th:field="*{lastName}" />
+        </div>
+        <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+    <br>
+
+    <footer>
+
+        <th:block th:include="fragments/footer :: footer"></th:block>
+
+    </footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="" />
+    <option name="COMMIT_PATTERN" value="{message}" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="ENABLE_SUITABLE_CONFIGURATION_CACHING" value="true" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="81467da6-2ccb-4395-b0b9-14cf99fc8a61" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esmael/prudential/configuration/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esmael/prudential/configuration/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esmael/prudential/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esmael/prudential/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esmael/prudential/repo/EmployeeRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esmael/prudential/repo/EmployeeRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esmael/prudential/service/EmployeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esmael/prudential/service/EmployeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esmael/prudential/service/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esmael/prudential/service/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/employee_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/employee_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esmael/prudential/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esmael/prudential/controller/EmployeeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esmael/prudential/repo/EmployeeRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esmael/prudential/repo/EmployeeRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esmael/prudential/service/EmployeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esmael/prudential/service/EmployeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esmael/prudential/service/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esmael/prudential/service/EmployeeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/employee_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/employee_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/successops.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/user/fail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/user/success.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hlmPtzPalPtR2e2xoZ6CibZ7UP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects1\Prudential\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects1\spring-boot-CRUD-with-thymeleaf\src\main\resources\templates\errors" />
+      <recent name="D:\projects1\spring-boot-CRUD-with-thymeleaf\src\main\resources\templates" />
+      <recent name="D:\projects1\spring-boot-CRUD-with-thymeleaf\src\main\resources\templates\home" />
+      <recent name="D:\projects1\spring-boot-CRUD-with-thymeleaf\src\main\resources\templates\user" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn compile" />
+      <command value="mvn clean:clean" />
+      <command value="mvn install" />
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.PrudentialEmployeePortalApplication">
+    <configuration name="PrudentialEmployeePortalApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.esmael.prudential.PrudentialEmployeePortalApplication" />
+      <module name="prudential-employee-portal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esmael.prudential.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootCrudWithThymeleafApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.app.SpringBootCrudWithThymeleafApplication" />
+      <module name="prudential-employee-portal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PrudentialEmployeePortalApplication" />
+        <item itemvalue="Application.SpringBootCrudWithThymeleafApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81467da6-2ccb-4395-b0b9-14cf99fc8a61" name="Default Changelist" comment="" />
+      <created>1600594031827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600594031827</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1600695816215">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1600695816215" />
+    <state x="490" y="125" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600693187709">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="125" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1600693187709" />
+    <state width="1493" height="99" key="GridCell.Tab.0.bottom" timestamp="1600712328443">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="99" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600712328443" />
+    <state width="1493" height="99" key="GridCell.Tab.0.center" timestamp="1600712328443">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="99" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600712328443" />
+    <state width="1493" height="99" key="GridCell.Tab.0.left" timestamp="1600712328443">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="99" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600712328443" />
+    <state width="1493" height="99" key="GridCell.Tab.0.right" timestamp="1600712328443">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="99" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600712328443" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1600682493161">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1600682493161" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1600696454284">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1600696454284" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1600607781299">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1600607781299" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/esmael/prudential/service/EmployeeServiceImpl.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
